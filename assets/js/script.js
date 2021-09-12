@@ -1,6 +1,6 @@
 let timeblocks = $('.container');
 let dayDiv = $('#currentDay');
-const workHours = [9,10,11,12,1,2,3,4,5];
+const workHours = [9,10,11,12,13,14,15,16,17];
 
 const dayFormat = 'dddd, MMMM Do [at] h:mm:ss a';
 
