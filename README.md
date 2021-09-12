@@ -1,1 +1,3 @@
-# Work Day Scheduler Starter Code
+# Work Day Scheduler
+## Description
+A simple workday planner app
