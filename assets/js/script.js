@@ -16,7 +16,7 @@ const initTimeBlocks = function () {
   t.each(function(i) {
     let etime = moment().hour(workHours[i]);
     console.log(etime.format('hA'));
-    this.querySelector('.hour').textContent = etime.format('hA');
+    $('.hour', this).text(etime.format('hA'));
 
     let ta = $('textarea', this);
 
@@ -39,6 +39,8 @@ const initTimeBlocks = function () {
         localStorage[$('.hour', this).text()] = ta.val();
       }
     });
+
+    $('button', this).html('&#128190;');
   });
 }
 
